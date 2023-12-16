@@ -1,0 +1,5 @@
+ID: 1
+First Name: чаян
+Last Name: дар
+Partonymic Name: сер
+Group: 661

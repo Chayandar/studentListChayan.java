@@ -1,0 +1,528 @@
+Детали ошибки:
+Временная метка: 18 числа 11 месяца в 14:51
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Локация ошибки: ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+Детали ошибки:
+Временная метка: 18 числа 11 месяца в 15:10
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Метод вызвавший ошибку: add в классе ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+Детали ошибки:
+Временная метка: 18 числа 11 месяца в 15:12
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 18 числа 11 месяца в 15:19
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 18 числа 11 месяца в 15:21
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 18 числа 11 месяца в 15:23
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 18 числа 11 месяца в 15:24
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 19 числа 11 месяца в 21:54
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "Student_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 20:05
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: Подсоединение по адресу localhost:5432 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+Сообщение об ошибке: Не удалось установить соединение с БД
+Причина возникновения ошибки: метод createConnection класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: Подсоединение по адресу localhost:5432 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:342)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql.Driver.connect(Driver.java:297)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at ru.esstu.StudentListDatabase.createConnection(StudentListDatabase.java:24)
+	at ru.esstu.StudentListDatabase.<init>(StudentListDatabase.java:19)
+	at org.example.Main.main(Main.java:28)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
+	... 9 more
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 20:18
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: Подсоединение по адресу localhost:5432 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+Сообщение об ошибке: Не удалось установить соединение с БД
+Причина возникновения ошибки: метод createConnection класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: Подсоединение по адресу localhost:5432 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:342)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql.Driver.connect(Driver.java:297)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at ru.esstu.StudentListDatabase.createConnection(StudentListDatabase.java:24)
+	at ru.esstu.StudentListDatabase.<init>(StudentListDatabase.java:19)
+	at org.example.Main.main(Main.java:28)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
+	... 9 more
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 20:43
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: отношение "student" не существует
+  Позиция: 13
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: отношение "student" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 20:44
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: отношение "student" не существует
+  Позиция: 15
+Сообщение об ошибке: Ошибка при получении списка студентов
+Причина возникновения ошибки: метод getAll класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: отношение "student" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:246)
+	at ru.esstu.StudentListDatabase.getAll(StudentListDatabase.java:35)
+	at org.example.Main.displayStudents(Main.java:87)
+	at org.example.Main.main(Main.java:65)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 20:44
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: отношение "student" не существует
+  Позиция: 15
+Сообщение об ошибке: Ошибка при получении списка студентов
+Причина возникновения ошибки: метод getAll класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: отношение "student" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:246)
+	at ru.esstu.StudentListDatabase.getAll(StudentListDatabase.java:35)
+	at org.example.Main.displayStudents(Main.java:89)
+	at org.example.Main.main(Main.java:65)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 20:44
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: отношение "student" не существует
+  Позиция: 13
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: отношение "student" не существует
+  Позиция: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 20:44
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: отношение "student" не существует
+  Позиция: 15
+Сообщение об ошибке: Ошибка при получении списка студентов
+Причина возникновения ошибки: метод getAll класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: отношение "student" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:246)
+	at ru.esstu.StudentListDatabase.getAll(StudentListDatabase.java:35)
+	at org.example.Main.displayStudents(Main.java:87)
+	at org.example.Main.main(Main.java:65)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 20:44
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: отношение "student" не существует
+  Позиция: 15
+Сообщение об ошибке: Ошибка при получении списка студентов
+Причина возникновения ошибки: метод getAll класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: отношение "student" не существует
+  Позиция: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:246)
+	at ru.esstu.StudentListDatabase.getAll(StudentListDatabase.java:35)
+	at org.example.Main.displayStudents(Main.java:89)
+	at org.example.Main.main(Main.java:65)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 20:51
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: столбец "first_name" в таблице "student" не существует
+  Позиция: 26
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: столбец "first_name" в таблице "student" не существует
+  Позиция: 26
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 20:56
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 63
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 63
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:63)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 21:17
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: �����: ������������ "xfzy" �� ������ �������� ����������� (�� ������)
+Сообщение об ошибке: Не удалось установить соединение с БД
+Причина возникновения ошибки: метод createConnection класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: �����: ������������ "xfzy" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:693)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:203)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql.Driver.connect(Driver.java:297)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at ru.esstu.StudentListDatabase.createConnection(StudentListDatabase.java:25)
+	at ru.esstu.StudentListDatabase.<init>(StudentListDatabase.java:20)
+	at org.example.Main.main(Main.java:32)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 21:19
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 63
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 63
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:64)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ВОЗНИКЛА ОШИБКА
+Детали:
+Временная метка: 16 числа 12 месяца в 21:22
+Сигнатура ошибки: org.postgresql.util.PSQLException
+Сообщение исключения: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 63
+Сообщение об ошибке: Ошибка при добавлении студента
+Причина возникновения ошибки: метод add класса ru.esstu.StudentListDatabase
+
+Стек вызовов:
+org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: "group")
+  Позиция: 63
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at ru.esstu.StudentListDatabase.add(StudentListDatabase.java:64)
+	at org.example.Main.addStudent(Main.java:109)
+	at org.example.Main.main(Main.java:68)
+
